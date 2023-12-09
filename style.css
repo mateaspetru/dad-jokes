@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/**
+ * FILEPATH: /Users/mateaspetru/Projects/dad-jokes/style.css
+ * 
+ * CSS styles for the body element.
+ * 
+ * - Sets the background color to #686de0.
+ * - Uses the "Roboto" font family.
+ * - Sets the display to flex and the flex direction to column.
+ * - Centers the content vertically and horizontally.
+ * - Sets the height to 100vh (viewport height).
+ * - Hides any overflow.
+ * - Removes margin and adds 20px of padding.
+ */
+body {
+  background-color: #686de0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
