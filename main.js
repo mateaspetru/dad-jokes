@@ -21,4 +21,4 @@ async function generateJoke() {
   const res = await fetch(url, config);
   const data = await res.json();
   jokeElement.innerHTML = data.joke;
-}const commitMessage = "Update main.js file to generate and display dad jokes";
+}
