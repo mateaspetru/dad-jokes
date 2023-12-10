@@ -33,23 +33,69 @@ body {
  * 
  * Styles for the container element.
  */
-.container{
-    background-color: #fff;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 50px 20px;
-    max-width: 100%;
-    text-align: center;
-    width: 50rem;
+.container {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 50px 20px;
+  max-width: 100%;
+  text-align: center;
+  width: 50rem;
+  overflow: auto;
 }
 
 /**
  * 
  * Styles for the title element.
  */
- h3{
-     margin: 0;
-     opacity: 0.5;
-     letter-spacing: 2.5px;
-     margin-bottom: 1rem;
- }
+h3 {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2.5px;
+}
+
+/**
+ * 
+ * Styles for the joke element.
+ */
+.joke {
+  font-size: 2rem;
+  margin: 3.1rem auto;
+  max-width: 37rem;
+  letter-spacing: 1px;
+  line-height: 2.8rem;
+}
+
+/**
+ * 
+ * Styles for the button element.
+ */
+.btn {
+  background-color: #686de0;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding:  0.8rem 1.5rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/**
+ * 
+ * Styles for the active state of the .btn class.
+ * Changes the background color to #5e60ce and scales the element down to 98% of its original size.
+ */
+.btn:active {
+    background-color: #5e60ce;
+    transform: scale(0.95);
+}
+
+/**
+ * Removes the outline when the button is focused.
+ */
+.btn:focus {
+  outline: none;
+}
