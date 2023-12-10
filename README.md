@@ -31,3 +31,5 @@ npm install
 ```sh
 npm run dev
 ```
+## Link
+https://laugh-challenge.surge.sh/
